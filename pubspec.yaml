@@ -1,8 +1,8 @@
 name: username_gen
 description: A new Flutter package project.
 version: 1.0.0
-author:
-homepage: m
+author: Ogbonda Chiziaruhoma <chiziaruhoma@gmail.com>
+homepage: https://github.com/Zfinix/username_gen
 
 environment:
   sdk: '>=2.10.0-0 <2.12.0'
