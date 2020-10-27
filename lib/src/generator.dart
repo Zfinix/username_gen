@@ -4,10 +4,10 @@ import 'raw.dart';
 
 abstract class UsernameGenImpl {
   /// Allocates a list of names for the specified `UsernameGen`.
-  void setNames(List<String?> _names);
+  void setNames(List<String> _names);
 
   /// Allocates a list of adjectives for the specified `UsernameGen`.
-  void setAdjectives(List<String?> _adjectives);
+  void setAdjectives(List<String> _adjectives);
 
   /// If you want to use a different seperator commands. Default separator is `-`
   void setSeperator(String new_seperator);
@@ -55,7 +55,7 @@ class UsernameGen implements UsernameGenImpl {
     return "${data.adjectives[ran_b]}${seperator}${data.names[ran_a]}${ran_suffix}";
   }
 
-  static String gen({UsernameGenData? data, String seperator = '-'}) {
+  static String gen({UsernameGenData data, String seperator = '-'}) {
     data ??= UsernameGenData(
       names: names,
       adjectives: adjectives,
@@ -69,11 +69,11 @@ class UsernameGen implements UsernameGenImpl {
 }
 
 class UsernameGenData {
-  List<String?> names;
-  List<String?> adjectives;
+  List<String> names;
+  List<String> adjectives;
 
   UsernameGenData({
-    required this.names,
-    required this.adjectives,
+     this.names,
+     this.adjectives,
   });
 }
