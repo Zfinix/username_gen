@@ -2,7 +2,8 @@
 
 ## Random username generator
 
-This is a simple package to create random usernames. To user it simply make these commands, ported from [Javascript]('https://github.com/MaPhil/username-generator/')
+This is a simple package to create random usernames. To user it simply make these commands, ported from [Javascript](https://github.com/MaPhil/username-generator/)
+l
 
 ```dart
 import 'package:username_gen/username_gen.dart';

@@ -1,6 +1,6 @@
 name: username_gen
-description: A new Flutter package project.
-version: 1.0.0
+description: This is a simple package to create random usernames. To user it simply make these commands
+version: 1.0.1
 homepage: https://github.com/Zfinix/username_gen
 
 environment:

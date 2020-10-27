@@ -73,7 +73,7 @@ class UsernameGenData {
   List<String> adjectives;
 
   UsernameGenData({
-     this.names,
-     this.adjectives,
+    this.names,
+    this.adjectives,
   });
 }
