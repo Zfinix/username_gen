@@ -7,11 +7,11 @@ This is a simple package to create random usernames. To user it simply make thes
 ```dart
 import 'package:username_gen/username_gen.dart';
 
-var username = UsernameGen.gen();
+var username = UsernameGen.gen(); // sharpened-whiskey87
 
  //OR
 
-final username = UsernameGen().generate();
+final username = UsernameGen().generate(); // sharpened-whiskey87
 
 ```
 
@@ -27,7 +27,7 @@ final username = UsernameGen.gen(
         adjectives: ['new adjectives'],
     ),
     seperator: '_'
-);
+); // pink-harmonica17
 
  //OR
 
@@ -35,5 +35,5 @@ final username = UsernameGen()
       ..setNames(['new names'])
       ..setSeperator('_')
       ..setAdjectives(['new adjectives'])
-      ..generate();
+      ..generate(); // pink-harmonica17
 ```

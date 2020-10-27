@@ -4,8 +4,9 @@ import 'package:username_gen/username_gen.dart';
 void main() {
   test('.gen() & .generate() values are not', () {
     final username = UsernameGen();
-    expect(UsernameGen.gen(), isNotNull,
-        reason: 'Username generated cannot be null');
+    final user = UsernameGen.gen();
+    print(user);
+    expect(user, isNotNull, reason: 'Username generated cannot be null');
     expect(username.data, isNotNull, reason: 'UsernameGenData cannot be null');
     expect(username.generate(), isNotNull,
         reason: 'Username generated cannot be null');
