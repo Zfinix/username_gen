@@ -8,7 +8,7 @@ l
 ```dart
 import 'package:username_gen/username_gen.dart';
 
-var username = UsernameGen.gen(); // sharpened-whiskey87
+var username = UsernameGen.random(); // sharpened-whiskey87
 
  //OR
 
@@ -22,7 +22,7 @@ If you want to set an array of name (nouns) and or adjectives use these commands
 
 import 'package:username_gen/username_gen.dart';
 
-final username = UsernameGen.gen(
+final username = UsernameGen.generateWith(
     data: UsernameGenData(
         names: ['new names'],
         adjectives: ['new adjectives'],
@@ -37,4 +37,5 @@ final username = UsernameGen()
       ..setSeperator('_')
       ..setAdjectives(['new adjectives'])
       ..generate(); // pink-harmonica17
+      
 ```
