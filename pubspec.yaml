@@ -1,6 +1,6 @@
 name: username_gen
 description: This is a simple package to create random usernames. To user it simply make these commands
-version: 1.0.3
+version: 1.0.4
 homepage: https://github.com/Zfinix/username_gen
 
 environment:
